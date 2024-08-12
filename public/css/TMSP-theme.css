@@ -2,6 +2,880 @@
 
 Hello Praxis Team!
 
-Testing CSS
+Testing CSS, copied from the dark theme.
 
 */
+
+/* Dark theme used by MySkills */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.modal-dialog-centered.modal-dialog-scrollable .modal-content {
+    max-height: none;
+    -webkit-box-shadow: 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%), 0px 11px 15px -7px rgb(0 0 0 / 20%);
+    box-shadow: 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%), 0px 11px 15px -7px rgb(0 0 0 / 20%);
+}
+
+.notif-message {
+    border-radius: 4px;
+    margin-left: 4px;
+    padding: 4px !important;
+    background-color: black;
+    color: #ffcc00 !important;
+    text-transform: uppercase;
+    top: -1rem !important;
+    left: 0.4rem !important;
+}
+
+.video-layout,
+.cohort-toggle {
+    background-color: black !important;
+    padding: 2px;
+}
+
+.notif-message::after {
+    content: none !important;
+}
+
+.mycohort-segment-menu,
+.mycohort-outcome-menu {
+    background: rgba(255, 192, 0, 0.75);
+}
+
+
+.close-lesson-btn {
+    color: #1c1c1c !important;
+}
+
+html,
+body {
+    background-color: #1b1b1b !important;
+    color: white !important;
+    width: 100% !important;
+    min-height: 100% !important;
+    margin: 0;
+}
+
+.ui-state-default {
+    /*color:white;*/
+}
+
+.overlay-content {
+    color: black;
+}
+
+.cke_textarea_inline {
+    background-color: #3a3a3a;
+    color: white;
+}
+
+.drop-down-menu .toggle {
+    color: white;
+}
+
+.cohort-menu-conferencing {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+table {
+    color: inherit;
+}
+
+.gradient {
+    /* background: #222 !important;*/
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link.black {
+    /*	color: black;*/
+}
+
+.ui-widget-content {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.competency-card {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#sidebarMain {
+    background: #222 !important;
+    z-index: 300;
+    border-right: thin solid white !important;
+}
+
+#productview,
+#courseview,
+#composerMain,
+#uiMain {}
+
+.ilt-btn {
+    color: white;
+}
+
+#sidebarMain>nav>ul>li>a>i {
+    /*color:white;*/
+}
+
+#expandContractToolbar {
+    /*color:white;*/
+}
+
+#expandContractToolbarContainer {
+    border-bottom: thin solid silver;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#footer {
+    background-color: #222 !important;
+    color: white;
+}
+
+#advancedToolbarContainer {
+    color: white;
+    border-bottom: thin solid #ffffff;
+}
+
+
+.searchcourse {
+    color: white;
+}
+
+.searchproduct {
+    color: white;
+    background-color: black;
+}
+
+.course-item,
+.role-item,
+.role-item-admin {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: thin solid rgba(255, 255, 255, 0.5);
+}
+
+#course_header_info,
+#topics_header_info,
+#skillscore_row,
+#achievements_header_info,
+#abilities_progress_info,
+#course_rating_info {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.change-cohort,
+.change-cohort-nobg {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.change-cohort-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: thin solid white;
+}
+
+.change-cohort-bottom-menu {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #343a40;
+}
+
+.change-profile,
+.change-theme {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    box-shadow: 0 0 0 2 #d9d9d9;
+    border: thin solid transparent;
+}
+
+.change-profile:hover,
+.change-profile.active,
+.change-theme:HOVER,
+.change-theme.active {
+    background: #0275d8;
+    border: thin solid #0275d8;
+    box-shadow: 0 0 4px 2px #0275d8;
+}
+
+
+.card-container div.carousel_item,
+.briefing_article_container_game_in {
+    border: 4px solid #555;
+}
+
+.card-container div.carousel_item.selected {
+    box-shadow: 0 0 0px 4pt #3399ff;
+}
+
+.card-container div.carousel_item:hover,
+.briefing_article_container_game_in:HOVER,
+#start_resource_button:HOVER,
+#start_quiz_button:HOVER {
+    box-shadow: 0 0 0px 4pt white;
+}
+
+
+.tile_status,
+.course_status,
+.resource_status,
+.required_status,
+.ff_status {
+    color: white;
+    background-color: #272727;
+}
+
+.ff_status.completed {
+    background-color: rgba(5, 158, 0, 0.76) !important;
+}
+
+.competency-container {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+
+
+.breadcrumb-item>a {
+    background-color: transparent !important;
+    color: white !important;
+    opacity: 0.9;
+}
+
+.breadcrumb-item>a:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.modal-body {
+    /* color: black;*/
+}
+
+.modal-header {
+    /*color: black;*/
+}
+
+#course_performance_graph {
+    /* background-color: rgba(255, 255, 255, 0.5);*/
+}
+
+.briefing-box {
+    background-color: transparent;
+}
+
+.briefing_article_container {
+    background-color: white;
+    border-bottom: thick solid #0b0b0b;
+}
+
+.briefing_icon {
+    background-color: white;
+}
+
+.icon_star_empty {
+    background-image: url(../img/star_dark_empty_white.svg) !important;
+}
+
+.icon_star_half {
+    background-image: url(../img/star_dark_half_filled_white.svg) !important;
+}
+
+.icon_star_filled {
+    background-image: url(../img/star_dark_filled_white.svg) !important;
+}
+
+.carousel-indicators li {
+    background-color: white;
+}
+
+.category_view,
+.list_view {
+    background-color: white;
+}
+
+#expandContractHiddenA,
+#expandContractPinA {
+    color: white;
+}
+
+#portal_top_menu {
+    background-color: #222 !important;
+}
+
+#portal_top_menu,
+#monitor_top_menu,
+#manage_top_menu {
+    border-bottom: thin solid white;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.box:hover {
+    background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.course-progress-bar .outer {
+    color: white;
+
+}
+
+.course-progress-bar .inner {
+    background-color: white;
+    color: black;
+
+}
+
+
+.course-active:HOVER {
+    background: linear-gradient(to left, rgb(19 19 27 / 0.25), rgb(19 22 29 / 50%));
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.mycohort-lesson-quiz-menu,
+.mycohort-lesson-resource-menu,
+.mycohort-course-menu,
+.mycohort-cluster-menu {
+    background-color: #343a40;
+}
+
+/** Bootstrap Dark Modal Styles **/
+.modal-content {
+    background-color: black;
+}
+
+.modal.dark {
+    background-color: #2d3032;
+}
+
+.modal.dark .modal-body {
+    background: #40464b;
+}
+
+.modal.dark .modal-header {
+    background: #2d3032;
+    border-bottom: 1px solid #2a2c2e;
+}
+
+.modal.dark .modal-header h1,
+.modal.dark .modal-header h2,
+.modal.dark .modal-header h3,
+.modal.dark .modal-header h4 {
+    color: #ccc;
+}
+
+.modal.dark .modal-footer {
+    background: #2d3032;
+    border-top: 1px solid #2a2c2e;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    background-color: #343a40 !important;
+}
+
+.dropdown-item {
+    color: white;
+
+}
+
+/** Bootstrap Dark Modal Styles **/
+.modal-open .modal,
+.btn:focus {
+    outline: none !important;
+}
+
+.modal .modal-body {
+    background: #40464b;
+}
+
+.modal .modal-header {
+    background-color: #2d3032;
+    border-bottom: 1px solid rgb(42 44 46);
+    color: white;
+}
+
+.modal .modal-header h1,
+.modal .modal-header h2,
+.modal .modal-header h3,
+.modal .modal-header h4,
+.modal .modal-header .close {
+    color: #ccc;
+}
+
+.modal .modal-body {
+    background-color: #272727;
+    border-bottom: 1px solid #2a2c2e;
+    color: white;
+}
+
+.task-status-select,
+.task-status-select:FOCUS,
+.modal .modal-body input,
+.modal .modal-body select,
+.modal .modal-body select:FOCUS,
+.modal .modal-body textarea {
+
+    background-color: rgb(14 14 14);
+    color: white;
+    border-color: rgb(255 255 255 / 0.25);
+}
+
+.modal .modal-body input:FOCUS,
+.modal .modal-body select:FOCUS,
+.modal .modal-body textarea:FOCUS {
+    border-color: #80bdff;
+}
+
+.modal .modal-footer {
+    background: #2d3032;
+    border-top: 1px solid #2a2c2e;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: white;
+}
+
+input::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.has-float-label label,
+.has-float-label>span {
+    color: white;
+}
+
+.has-float-label label::after,
+.has-float-label>span::after {
+    background: rgb(10 10 10);
+    height: 7px;
+}
+
+.cke {
+    border-color: rgb(255 255 255 / 0.15) !important;
+}
+
+.cke_top {
+    background-color: rgb(10 10 10) !important;
+}
+
+.faux-btn,
+.faux-btn:HOVER {
+    color: white;
+}
+
+.tasks-view {
+    background: #1b1b1b;
+}
+
+.tasks-view .task-item {
+    border-top: 1px solid rgb(255, 255, 255, 0.25);
+    border-bottom: 1px solid rgb(255, 255, 255, 0.25);
+}
+
+.tasks-view .task-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pinnedContainer {
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.widget {
+    color: black !important;
+}
+
+
+.myCohortQuizTop,
+.myCohortResourceTop {
+    background-color: #eee;
+}
+
+.resource-rating,
+.quiz-detail {
+    color: #eee;
+    background-color: #6f6f6f;
+}
+
+.icon {
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+#chat-editor-box {
+    z-index: 200;
+}
+
+/* Cohorts/HE Constructs */
+#streams-container {
+    padding-top: 150px;
+    position: relative;
+}
+
+#streams-header {
+    height: 150px;
+    /* overflow: hidden; */
+}
+
+#myClassNavigation,
+#myskills_menu {
+    /*background-color: rgba(255,255,255,0.25)!important;*/
+    -webkit-box-shadow: 0px 2px 10px 1px black;
+    -moz-box-shadow: 0px 2px 10px 1px black;
+    box-shadow: 0px 2px 10px 1px black;
+    background-color: #7f7f7f;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0px 5px 5px 1px #222;
+    height: 33px;
+}
+
+#myClassCohortInfo {
+    background-color: rgba(77, 77, 135, 0.6);
+    height: calc(100% - 33px);
+}
+
+#myClassAssignments {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 3px solid #a6a6a6;
+    border-radius: 16px;
+}
+
+#myClassPeople {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 3px solid #a6a6a6;
+    border-radius: 16px;
+}
+
+#myClassStream {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding-top: 60px;
+    border: 3px solid #a6a6a6;
+    max-width: calc(100% - 310px);
+}
+
+#myClassChat {
+    overflow: visible;
+}
+
+#myClassInfo {
+    width: 280px;
+}
+
+#cke_message {
+    box-shadow: 0px 5px 5px 1px #222;
+}
+
+#task-view-all {
+    color: #00b0f0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tasks-view {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+
+    z-index: 100;
+    padding: 20px 70px 20px 30px;
+}
+
+.tasks-view .task-item-group {
+    font-size: 12px;
+}
+
+.tasks-view .task-item-group .task-item-day {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.tasks-view .task-item-group .today-item {
+    font-size: 24px;
+}
+
+.tasks-view .tasks-view-close {
+    cursor: pointer;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    font-size: 35px;
+}
+
+.tasks-view .tasks-view-content {
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 30px 40px;
+}
+
+.tasks-view .task-cohort {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    height: 38px;
+    background-size: cover;
+}
+
+.tasks-view .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 4px;
+    font-size: 12px;
+    border-left: 3px solid transparent;
+    flex-grow: 1;
+    position: relative;
+}
+
+.tasks-view .task-item i {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.tasks-view .task-item .message-menu i {
+    pointer-events: none;
+}
+
+.tasks-view .task-item .task-item-icon {}
+
+.tasks-view .task-item.completed {
+    border-left-color: green;
+}
+
+.tasks-view .task-item.completed .task-item-status {
+    border: 3px solid green;
+}
+
+.tasks-view .task-item.completed>i {
+    color: green;
+}
+
+.tasks-view .task-item.past-due {
+    border-left-color: red;
+}
+
+.tasks-view .task-item.past-due>i {
+    color: red;
+}
+
+.tasks-view .task-item.past-due .task-item-status {
+    border-color: red;
+}
+
+.tasks-view .task-item .task-item-status {
+    padding: 4px 10px;
+    white-space: nowrap;
+    border: 3px solid transparent;
+}
+
+.tasks-view .task-item .task-item-name {
+    margin-right: auto;
+    margin-left: 6px;
+    font-size: 16px;
+}
+
+.cohort-box,
+.ilt-box,
+.product-box {
+    box-shadow: 0px 0px 0px 2px white;
+    border-radius: 10px;
+    border: none;
+}
+
+.cohort-box:HOVER,
+.ilt-box:HOVER,
+.product-box:HOVER {
+    box-shadow: 0px 0px 10px 4px white;
+    outline: thin outset black;
+}
+
+.cohort-archived-box {
+    box-shadow: 0px 0px 0px 2px white;
+    border-radius: 10px !important;
+    background-color: #555;
+    color: white;
+    border: none;
+}
+
+.cohort-archived-box:HOVER {
+    box-shadow: 0px 0px 10px 4px white;
+    background-color: #555555a3;
+}
+
+
+/* Filter dark theme */
+.multiselect {
+    background-color: #343a40 !important;
+    color: #f8f9fa !important;
+}
+
+.input-group ul {
+    background-color: #343a40;
+}
+
+.input-group ul label {
+    color: #f8f9fa !important;
+}
+
+/* AI Curated cards */
+.briefing_article_container_game_in {
+    background-color: #343a40;
+    border-radius: 12px;
+    border: 2px solid gray;
+}
+
+.briefing_article_container_game_in .briefing_article_url {
+    color: white;
+}
+
+.briefing_article_container_game_in .briefing_article_date_published {
+    color: #ddd;
+}
+
+.briefing_article_container_game_in .briefing_article_content {
+    color: #ccc;
+}
+
+.briefing_article_container_game_in .briefings_toolbar {
+    color: white;
+}
+
+#taskAssignees {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.task-assignee-item.selected {
+    background-color: #007bff !important;
+}
+
+.calendar-class-name.selected {
+    outline: thick solid #007bff !important;
+}
+
+.cohort-status-2,
+.cohort-status-0 {
+    filter: grayscale(100%);
+    cursor: default;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background: #343a40;
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: white;
+    -webkit-background-clip: text;
+    caret-color: white;
+}
+
+#attached-file-list {
+    background-color: black;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+    color: white;
+}
+
+#resource_info_view .icon_star_filled {
+    background-image: url(../img/star_dark_filled_white.svg) !important;
+}
+
+#resource_info_view .icon_star_half {
+    background-image: url(../img/star_dark_half_filled_white.svg) !important;
+}
+
+#resource_info_view .icon_star_empty {
+    background-image: url(../img/star_dark_empty_white.svg) !important;
+}
+
+.fa-download.preview-file-header-icon {
+    color: white;
+}
+
+.mycohort-lesson-summary {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.resource-optional {
+    color: yellow;
+}
+
+.conf-cohort.active,
+.conf-cohort:hover {
+    outline: 2px solid white;
+}
+
+.mycohort-btn.fullscreen-button {
+    color: white;
+}
+
+#mosaic_selection {
+    background-color: black !important;
+}
+
+.cohorts-cohort-progress {
+    background-color: #e9ecef69;
+}
+
+.discord-button,
+.gitlab-button {
+    color: white;
+}
+
+.skills-discord-button,
+.skills-gitlab-button {
+    color: white;
+}
+
+.playlist_container:HOVER {
+    border: thick solid #0275d8 !important;
+}
+
+.playlist_container.selected {
+    border: thick solid #0275d8 !important;
+    pointer-events: none;
+    cursor: initial;
+}
+
+#playlist_resources_container {
+    color: white;
+}
+
+.mycohort-cluster-courses-editable {
+    border-left: thin solid #343a40;
+    border-right: thin solid #343a40;
+}
+
+.cluster-editable {
+    background-color: rgba(255, 255, 255, 0.20);
+    border-left: thin solid #343a40;
+    border-right: thin solid #343a40;
+    border-top: thin solid #343a40;
+}
+
+.mycohort-banner {
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 4px 12px;
+}
