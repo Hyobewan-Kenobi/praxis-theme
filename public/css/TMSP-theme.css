@@ -4,10 +4,13 @@
 #track-list-container {
     background-color: #ffffff;
     display: grid;
+}
+
+#track-list {
+    display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 1fr);
     gap: 0;
-
 }
 
 .modal-dialog-centered.modal-dialog-scrollable .modal-content {
