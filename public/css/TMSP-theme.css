@@ -9,8 +9,8 @@
 
 #track-list {
     display: grid;
-    grid-template-columns: repeat(7, 300px);
-    grid-template-rows: repeat(7, 300px);
+    grid-template-columns: repeat(7, 200px);
+    grid-template-rows: repeat(7, 200px);
     gap: 0;
     
 }
@@ -24,10 +24,10 @@ i {
     padding: 0rem;
 }
 
-.p-3 {
-    padding: 0rem;
+.bg-cover-track {
+    background-image: none;
+    background-color: blue;
 }
-
 
 
 
