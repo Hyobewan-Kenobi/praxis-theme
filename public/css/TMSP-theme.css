@@ -19,6 +19,13 @@ i {
     display: none;
 }
 
+.cluster-box {
+    border-radius: 0px;
+}
+
+.p-3 {
+    padding: 0rem;
+}
 
 
 
