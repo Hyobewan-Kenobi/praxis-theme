@@ -1,15 +1,11 @@
-/*
-
-Hello Praxis Team!
-
-Testing CSS, copied from the dark theme as a start
-
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+/* Tracklist */
 #track-list-container {
     background-color: #ffffff;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+
 }
 
 .modal-dialog-centered.modal-dialog-scrollable .modal-content {
