@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 /* Tracklist */
-#track-list-container {
+/* #track-list-container {
     background-color: #ffffff;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -9,7 +9,7 @@
     gap: 0;
     border: 1px solid #000;
 
-}
+} */
 
 .modal-dialog-centered.modal-dialog-scrollable .modal-content {
     max-height: none;
