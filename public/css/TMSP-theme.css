@@ -7,7 +7,7 @@ copy and pasted light theme to configure for Andy's request to display the cards
 
 */
 
-#track-list-container {
+#track-list {
     display: flex;
     flex-direction: column;
 }
